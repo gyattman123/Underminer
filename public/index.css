@@ -93,8 +93,11 @@ footer a:hover {
 
 .desc p {
 	width: 560px;
+	margin: 0 auto;
+	text-align: center;
 	color: rgba(253, 253, 253, 0.514);
 }
+
 
 #sj-address {
 	background: none;
