@@ -173,4 +173,72 @@ footer a:hover {
 #sj-form {
 	margin-top: 0;
 }
+/* ===== Existing CSS above ===== */
+/* (leave everything you already have untouched) */
+
+
+
+/* ============================= */
+/* Visual depth & polish tweaks */
+/* ============================= */
+
+/* background depth */
+body::before {
+	content: "";
+	position: fixed;
+	inset: 0;
+	background:
+		radial-gradient(circle at center, rgba(255,255,255,0.04), transparent 60%),
+		repeating-linear-gradient(
+			0deg,
+			rgba(255,255,255,0.015),
+			rgba(255,255,255,0.015) 1px,
+			transparent 1px,
+			transparent 2px
+		);
+	pointer-events: none;
+	z-index: -1;
+}
+
+.logo {
+	filter:
+		drop-shadow(0 20px 40px rgba(0,0,0,0.6))
+		drop-shadow(0 0 40px rgba(120,150,255,0.08));
+}
+
+.logo-wrapper h1 {
+	letter-spacing: 0.5px;
+	margin-bottom: 8px;
+}
+
+.desc p {
+	color: rgba(255,255,255,0.65);
+	font-size: 15px;
+	line-height: 1.5;
+	margin-top: 0;
+	margin-bottom: 12px;
+}
+
+#sj-address:hover {
+	border-color: rgba(255,255,255,0.35);
+}
+
+#sj-address:focus {
+	box-shadow: 0 0 0 3px rgba(120,150,255,0.12);
+}
+
+#sj-form {
+	margin-top: 0;
+}
+
+.footer-note {
+	position: fixed;
+	bottom: 20px;
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+	color: rgba(255,255,255,0.35);
+	letter-spacing: 0.4px;
+}
+
 
