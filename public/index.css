@@ -345,7 +345,7 @@ body {
 
 /* Re-center hero stack to fix upward drift */
 .header-center {
-	margin-top: 10vh; /* was effectively too tight */
+	margin-top: 13vh; /* was effectively too tight */
 }
 
 /* Micro-balance between title, desc, and input */
