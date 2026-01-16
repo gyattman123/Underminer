@@ -238,6 +238,45 @@ body::before {
 	color: rgba(255,255,255,0.35);
 	letter-spacing: 0.4px;
 }
+/* ===== Mythic footer polish ===== */
+
+footer {
+	opacity: 0.92;
+	font-size: 0.9rem;
+}
+
+footer > div {
+	margin-bottom: 3px;
+}
+
+.footer-note {
+	margin-top: 0;
+	line-height: 1.25;
+	opacity: 0.8;
+}
+
+footer a {
+	text-decoration: none;
+	opacity: 0.85;
+	transition: opacity 0.15s ease;
+}
+
+footer a:hover {
+	opacity: 1;
+}
+
+footer::before {
+	content: "";
+	display: block;
+	height: 1px;
+	background: linear-gradient(
+		to right,
+		transparent,
+		rgba(255, 255, 255, 0.12),
+		transparent
+	);
+	margin-bottom: 6px;
+}
 
 
 
