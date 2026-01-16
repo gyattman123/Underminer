@@ -343,5 +343,18 @@ body {
 	to { opacity: 1; }
 }
 
+/* Re-center hero stack to fix upward drift */
+.header-center {
+	margin-top: 10vh; /* was effectively too tight */
+}
+
+/* Micro-balance between title, desc, and input */
+.desc {
+	margin-top: 10px;
+}
+
+#sj-form {
+	margin-top: 10px;
+}
 
 
